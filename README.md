@@ -1,4 +1,4 @@
-# Signle Price Grid Component
+# Single Price Grid Component
 Single price grid component created by me using HTML &amp; CSS.
 
 After coming across a design on Figma, I made the decision to recreate it using my own HTML and CSS code. In order to achieve the desired layout, I utilized both flexbox and grid.
