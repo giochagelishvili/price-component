@@ -1,0 +1,192 @@
+/* GLOBAL STYLES */
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-family: "Karla", sans-serif;
+    background-color: #E5EFF5;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN CONTAINER STYLES */
+.container
+{
+    background-color: #FFFFFF;
+    max-width: 66rem;
+    border-radius: 0.8rem;
+    margin: 3.2rem;
+    overflow: hidden;
+}
+
+/* HEADER STYLES */
+.header-text-container
+{
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#join
+{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #2AB2AF;
+}
+
+#money-back
+{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #C0DF34;
+}
+
+#header-p
+{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #98A6BD;
+}
+
+/* DARK GREEN DIV SYLES */
+.dark-green
+{
+    padding: 3.2rem;
+    background-color: #2AB2AF;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.dark-green-text-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+}
+
+#subscription
+{
+    font-size: 1.9rem;
+    color: #FFFFFF;
+}
+
+.pricing
+{
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+#price
+{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#per-month
+{
+    font-size: 1.6rem;
+    opacity: 0.5;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+#full-access
+{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+#sign-up
+{
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    background-color: #C0DF34;
+    color: #FFFFFF;
+
+    width: 100%;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 1.2rem;
+
+    cursor: pointer;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* LIGHT GREEN DIV STYLES */
+.light-green
+{
+    padding: 3.2rem;
+    background-color: #4BBEBC;
+    color: white;
+}
+
+#why-us
+{
+    font-size: 1.9rem;
+    margin-bottom: 1.6rem;
+}
+
+.light-green-list li
+{
+    font-size: 1.6rem;
+    color:#C0DF34;
+    opacity: 0.8;
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+/* TABLET STYLES */
+@media screen and (min-width: 768px)
+{
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .dark-green
+    {
+        justify-content: space-evenly;
+    }
+
+    #sign-up
+    {
+        transition: 0.2s;
+    }
+
+    #sign-up:hover
+    {
+        background-color: #c7e349;
+        transform: scale(1.01);
+    }
+}
